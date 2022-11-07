@@ -23,6 +23,11 @@ const questions = () => {
             type: 'input',
             name: 'email',
             message: 'Enter your email address.'
+          },
+          {
+            type: 'input',
+            name: 'install',
+            message: 'Enter steps required to install your project.'
           }
     ])
 };
