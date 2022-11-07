@@ -28,6 +28,11 @@ const questions = () => {
             type: 'input',
             name: 'install',
             message: 'Enter steps required to install your project.'
+          },
+          {
+            type: 'input',
+            name: 'usage',
+            message: 'Describe how to use this application.'
           }
     ])
 };
