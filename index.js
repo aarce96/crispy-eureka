@@ -33,6 +33,13 @@ const questions = () => {
             type: 'input',
             name: 'usage',
             message: 'Describe how to use this application.'
+          },
+          {
+            type: 'list',
+            name: 'license',
+            message: 'Enter any licenses used in this application.',
+            choices: ['GNU', 'MIT'],
+            default: ['MIT']
           }
     ])
 };
