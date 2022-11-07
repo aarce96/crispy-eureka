@@ -62,10 +62,16 @@ const writeFile = (data) => {
 };
 
 // TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+questions()
+  .then((answers) => {
+    return generatePage(answers);
+  })
+  .then((data) => {
+    return writeFile(data);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 
 // console.log to confirm node runs on command line
 // console.log("Hello Node!");
