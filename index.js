@@ -40,6 +40,11 @@ const questions = () => {
             message: 'Enter any licenses used in this application.',
             choices: ['GNU', 'MIT'],
             default: ['MIT']
+          },
+          {
+            type: 'input',
+            name: 'contributors',
+            message: 'Enter any contributors used on this application.'
           }
     ])
 };
