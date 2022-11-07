@@ -8,3 +8,6 @@ Aa a developer, I want a README generator so that I can quickly create a profess
 
 ## GitHub Repo
 https://github.com/aarce96/crispy-eureka
+
+## Video Demo
+https://drive.google.com/file/d/10394MwwBi8GtO22FbqrUvHPs9CaufyqF/view 
