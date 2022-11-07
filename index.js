@@ -11,3 +11,6 @@ function init() {}
 
 // Function call to initialize app
 init();
+
+// console.log to confirm node runs on command line
+// console.log("Hello Node!");
