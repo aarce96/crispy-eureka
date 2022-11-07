@@ -13,6 +13,11 @@ const questions = () => {
             type: 'input',
             name: 'description',
             message: 'Please describe your project in a short paragraph.'
+          },
+          {
+            type: 'input',
+            name: 'github',
+            message: 'Enter your GitHub username.'
           }
     ])
 };
