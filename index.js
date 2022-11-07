@@ -8,7 +8,12 @@ const questions = () => {
             type: 'input',
             name: 'title',
             message: 'Enter title of your project.'
-        }
+        },
+        {
+            type: 'input',
+            name: 'description',
+            message: 'Please describe your project in a short paragraph.'
+          }
     ])
 };
 
